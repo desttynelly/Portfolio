@@ -18,6 +18,134 @@
 }
 
 
+.anime{
+    margin-left: -70px;
+    position: fixed;
+}
+.anime div{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 3px solid #ff9000;
+}
+
+.goo1{
+    animation-name: goo1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes goo1{
+
+    0%{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    50%{
+        border: 3px solid white;
+        margin-top: -80px;
+        margin-left: 800px;
+    }
+    100%{
+        margin-top: 30px;
+        margin-left: 1450px;
+    }
+}
+
+
+
+.goo2{
+    animation-name: goo2;
+    animation-delay: 3s;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes goo2{
+
+    0%{
+        /* border: 3px solid black; */
+        margin-top: 300px;
+        margin-left: 0px;
+    }
+    100%{
+        margin-top: 300px;
+        margin-left: 1450px;
+    }
+}
+
+
+
+
+
+.goo3{
+    animation-name: goo3;
+    animation-delay: 3s;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes goo3{
+
+    0%{
+        margin-top: 10px;
+        margin-left: 1450px;
+    }
+    100%{
+        /* border: 3px solid black; */
+        margin-top: 300px;
+        margin-left: 0px;
+                
+    }
+}
+
+
+
+.goo4{
+    animation-name: goo4;
+    animation-delay: 6s;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes goo4{
+
+    0%{
+        margin-top: 300px;
+        margin-left: 1450px;
+    }
+    100%{
+        border: 3px solid black;
+        margin-top: 0px;
+        margin-left: 0px;
+                
+    }
+}
+
+
+
+
+.goo5{
+    animation-name: goo5;
+    /* animation-delay: 2s; */
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes goo5{
+
+    0%{
+        margin-top: 500px;
+        margin-left: 150px;
+    }
+    100%{
+        border: 3px solid #5f1ec9;
+        margin-top: -300px;
+        margin-left: 400px;
+                
+    }
+}
 
 body{
     overflow: hidden;
@@ -3570,6 +3698,9 @@ a{
 @media (min-width: 1100px){
 
 
+    .sidebar{
+        margin-left: 750px;
+    }
 
     .big-img{
         margin-left: 200px;
@@ -3593,12 +3724,32 @@ a{
     .projects{
         margin-left: 90px;
     }
+
+
+
+
+    .contact{
+        margin-left: 650px;
+    }
+
+    .contact h1{
+        margin-left: -500px;
+    }
 }
 
 
 
 
 
+
+
+
+@media (min-width: 1180px){
+
+    .sidebar{
+        margin-left: 800px;
+    }
+}
 
 
 
@@ -3731,13 +3882,12 @@ a{
     
     .headstory .but{
         cursor: pointer;
-        padding-top: 1px;
-        padding-left: 10px;
         margin-top: 50px;
         color: #000;
-        width: 120px;
+        width: 110px;
+        padding-top: 14px;
         border-radius: 10px;
-        height: 50px;
+        height: 30px;
         font-weight: 500;
         background-color: var(--ash);
     }
@@ -3745,12 +3895,12 @@ a{
         font-size: 15px;
     }
     .headstory .but #arrow{
-        padding: 6px;
+        padding: 4px;
         background-color: #ffffff62;
-        margin-left: 80px;
-        transform: translateY(-40px);
-        border-radius: 10px;
-        width: 20px;
+        margin-left: 75px;
+        transform: translateY(-25px);
+        border-radius: 5px;
+        width: 17px;
         transition: all 0.3s ease-in-out;
     }
     .headstory .but #arrow.active{
@@ -3758,18 +3908,18 @@ a{
     }
     
     .big-img{
-        margin-left: 200px;
+        margin-left: 250px;
         margin-top: -349px;
     }
     .big-img #destty{
         height: 560px;
-        width: 900px;
+        width: 700px;
     }
     
     
     .story{
         margin-top: -500px;
-        margin-left: 950px;
+        margin-left: 850px;
     }
     .story .headp{
         font-size: 20px;
@@ -3833,7 +3983,7 @@ a{
     }
     .socials li{
         display: inline;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: -70px;
     }
     .socials li a i{
@@ -3848,7 +3998,7 @@ a{
         user-select: none;
         cursor: pointer;
         margin-top: -10px;
-        margin-left: 1200px;
+        margin-left: 1100px;
     }
     .letschat a{
         font-size: 20px;
@@ -3886,8 +4036,9 @@ a{
     .About-head{
         border-radius: 10px;
         margin-top: 100px;
-        margin-left: 70px;
-        width: 1200px;
+        margin-left: 50px;
+        height: 130px;
+        width: 1000px;
         overflow: hidden;
         background-color: var(--ash);
     }
@@ -3902,16 +4053,18 @@ a{
         position: relative;
         font-size: 70px;
         /* margin-top: -400px; */
-        margin-left: 450px;
+        margin-left: 400px;
     }
     
     
     .aboutme{
         margin-top: 50px;
         width: 1050px;
-        margin-left: 150px;
+        margin-left: 70px;
     }
     .aboutme p{
+        margin-left: 0px;
+        width: 950px;
         font-size: 15px;
     }
     .aboutme p span{
@@ -3925,7 +4078,7 @@ a{
     
     .skills{
         margin-top: 50px;
-        margin-left: 50px;
+        margin-left: -100px;
     }
     .skills #skiltop{
         margin-left: 550px;
@@ -3934,7 +4087,8 @@ a{
     }
     
     .skills .skills-div{
-        margin-left: 100px;
+        width: 1100px;
+        margin-left: 150px;
     }
     .skills .skills-div div{
         float: left; 
@@ -3943,6 +4097,8 @@ a{
         padding: 50px;
         border-radius: 20px;
         transition: var(--slow);
+        padding-left: none;
+        padding-right: none;
     }
     
     .skills .skills-div .html.active,
@@ -3963,7 +4119,7 @@ a{
     #css.active,
     #js.active,
     #fig.active{
-        width: 140px;
+        width: 10px;
         height: 140px;
     }
     .skills .skills-div div p{
@@ -4015,7 +4171,9 @@ a{
     
     
     .projects{
+        margin-left: 0px;
         margin-top: 100px;
+        width: 1150px;
     }
     .projects .web div,
     .projects .Graphics div,
@@ -4023,7 +4181,7 @@ a{
         float: left;
         border-radius: 10px;
         background-color: var(--high-bg);
-        margin-left: 60px;
+        margin-left: 20px;
         padding: 30px;
         transition: var(--slow);
     }
@@ -4037,6 +4195,7 @@ a{
     .projects h2{
         font-size: 40px;
         font-weight: 600;
+        width: 400px;
     }
     .projects p{
         font-size: 20px;
@@ -4045,6 +4204,7 @@ a{
         margin-left: 10px;
     }
     .projects img{
+        background-color: red;
         height: 200px;
         width: 200px;
     }
@@ -4066,13 +4226,17 @@ a{
     
     .contact{
         margin-left: 700px;
-        margin-top: -130px;
+        margin-top: 100px;
+        transform: translateY(-50px);
     }
     .contact h1{
-        transform: translateY(250px);
+        transform: translateY(50px);
         margin-left: -550px;
         font-size: 70px;
         width: 200px;
+    }
+    .contact .two-btn{
+        margin-top: -200px;
     }
     .contact .two-btn button{
         height: 50px;
@@ -4097,7 +4261,7 @@ a{
     }
     .contact form input{
         outline: none;
-        width: 400px;
+        width: 430px;
         padding-left: 10px;
         border-radius: 10px;
         height: 40px;
@@ -4108,7 +4272,7 @@ a{
     .contact form textarea{
         outline: none;
         font-size: 15px;
-        width: 400px;
+        width: 430px;
         padding-left: 10px;
         border-radius: 10px;
         height: 80px;
@@ -4117,7 +4281,7 @@ a{
     }
     
     .contact form button{
-        margin-left: 100px;
+        margin-left: 150px;
         width: 150px;
         height: 50px;
         font-size: 15px;
@@ -4129,7 +4293,7 @@ a{
     
     
     .contact .big-con{
-        margin-top: -200px;
+        margin-top: -100px;
         margin-left: -560px;
     }
     
@@ -4138,7 +4302,80 @@ a{
         margin-left: 20px;
     }
     .contact .big-con li a i{
-        font-size: 15px;
+        font-size: 20px;
     }
     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1400px){
+
+    .top{
+        margin-left: 0px;
+    }
+    .logo{
+        /* background-color: red; */
+        width: 300px;
+    }
+    .logo p{
+        font-size: 40px;
+    }
+
+    .email1{
+        margin-left: 400px;
+    }
+    .email1 a{
+        font-size: 16px;
+    }
+
+
+
+    .sidebar{
+        margin-left: 950px;
+    }
+    .sidebar ul li a{
+        font-size: 17px;
+    }
+
+
+
+
+    .About-head{
+        width: 1100px;
+    }
+    .aboutme p{
+        font-size: 17px;
+        width: 1050px;
+    }
 }
