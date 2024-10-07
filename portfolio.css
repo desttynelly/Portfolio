@@ -1050,7 +1050,7 @@ a{
     }
     .contact h1{
         transform: none;
-        margin-left: 40px;
+        margin-left: 20px;
         font-size: 20px;
         width: 140px;
     }
@@ -1794,6 +1794,18 @@ a{
 
 
 
+@media (min-width: 344px){
+
+    .top{
+        width: 354px;
+    }
+    .ham{
+        margin-left: 300px;
+    }
+}
+
+
+
 
 
 
@@ -1929,8 +1941,56 @@ a{
 
 
 
+@media (min-width: 360px){
 
 
+    .ham{
+        margin-left: 330px;
+    }
+    .sidebar{
+        margin-left: 400px;
+    }
+    .sidebar.active{
+        margin-left: 252px;
+    }
+}
+
+
+
+
+
+@media (min-width: 375px){
+
+
+    .top{
+        width: 377px;
+    }
+    .sidebar.active{
+        margin-left: 272px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 390px){
+
+
+    .top{
+        width: 390px;
+    }
+    .ham{
+        margin-left: 350px;
+    }
+    .sidebar.active{
+        margin-left: 292px;
+    }
+}
 
 
 
@@ -2295,6 +2355,45 @@ a{
 
 
 
+@media (min-width: 412px){
+
+    .top{
+        width: 415px;
+    }
+
+    .ham{
+        margin-left: 380px;
+    }
+    .sidebar{
+        margin-left: 450px;
+    }
+    .sidebar.active{
+        margin-left: 312px;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 414px){
+
+    .top{
+        width: 415px;
+    }
+
+    .ham{
+        margin-left: 380px;
+    }
+    .sidebar{
+        margin-left: 450px;
+    }
+    .sidebar.active{
+        margin-left: 312px;
+    }
+}
 
 
 
@@ -2304,10 +2403,16 @@ a{
 
 
 
+@media (min-width: 430px){
 
+    .top{
+        width: 430px;
+    }
 
-
-
+    .sidebar.active{
+        margin-left: 332px;
+    }
+}
 
 
 
@@ -2844,16 +2949,19 @@ a{
 
     .sidebar{
         margin-left: 700px;
-        width: 120px;
+        width: 270px;
     }
     .sidebar.active{
-        margin-left: 522px;
+        margin-left: 500px;
     }
 
     .sidebar ul{
-        padding-left: 15px;
+        padding-right: 100px;
+        padding-left: 35px;
     }
     .sidebar ul li{
+        width: 500px;
+        margin-bottom: 20px;
         margin-left: 0px;
     }
     .sidebar ul li a{
@@ -2933,7 +3041,7 @@ a{
         margin-left: 750px;
     }
     .sidebar.active{
-        margin-left: 572px;
+        margin-left: 550px;
     }
 
 
@@ -3028,7 +3136,7 @@ a{
         margin-left: 750px;
     }
     .sidebar.active{
-        margin-left: 622px;
+        margin-left: 600px;
     }
 
 
@@ -3091,7 +3199,27 @@ a{
 
 
 
+@media (min-width: 768px){
 
+
+    .top{
+        width: 768px;
+    }
+    .ham{
+        margin-top: -40px;
+        margin-left: 708px;
+    }
+    .ham i{
+        font-size: 25px;
+    }
+
+    .sidebar{
+        margin-left: 770px;
+    }
+    .sidebar.active{
+        margin-left: 620px;
+    }
+}
 
 
 
@@ -3118,7 +3246,7 @@ a{
         margin-top: -65px;
         width: 370px;
         background: none;
-        margin-left: 400px;
+        margin-left: 420px;
     }
     .sidebar ul li a{
         margin-left: 15px;
@@ -3213,6 +3341,13 @@ a{
 
 
 
+
+
+
+
+
+
+
 @media (min-width: 850px){
 
     .homem{
@@ -3270,7 +3405,79 @@ a{
 
 
 
+@media (min-width: 750px)and (min-height: 1368px){
 
+
+
+    body{
+        background-color: red;
+    }
+    .top{
+        width: 750px;
+    }
+    .ham{
+        margin-left: 700px;
+    }
+
+    .sidebar{
+        margin-left: 750px;
+    }
+    .sidebar.active{
+        margin-left: 600px;
+    }
+
+
+
+    .homem{
+        /* background-color: red; */
+        margin-left: 30px;
+    }
+    .big-img{
+        margin-left: 120px;
+    }
+
+    .story .headp{
+        margin-left: 0px;
+    }
+    .story .nextstory{
+        font-size: 23px;
+        width: 570px;
+    }
+    .story .endstory{
+        font-size: 20px;
+        width: 480px;
+    }
+
+
+
+    .story .download{
+        width: 135px;
+        height: 20px;
+    }
+    .story .download p{
+        font-size: 14px;
+    }
+
+    .story .download #downicon{
+        width: 25px;
+        margin-left: 105px;
+        transform: translateY(-38px);
+    }
+    .story .download #downicon.active{
+        width: 28px;
+        transform: translateY(-40px);
+    }
+
+
+
+    .letschat{
+        margin-left: 260px;
+    }
+    .letschat a{
+        font-size: 17px;
+    }
+
+}
 
 
 
