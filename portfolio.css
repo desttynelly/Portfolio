@@ -1516,16 +1516,22 @@ a{
     .sidebar{
         position: fixed;
         background-color: var(--low-bg);
-        width: 100px;
+        width: 150px;
         margin-left: 350px;
         padding-bottom: 10px;
     }
     .sidebar.active{
-        margin-left: 192px;
+        margin-left: 172px;
+    }
+    .sidebar ul li{
+        margin-bottom: 20px;
+    }
+    .sidebar ul li a{
+        font-size: 15px;
     }
     .email1 a{
         text-decoration: underline 0.5px solid;
-        font-size: 6px;
+        font-size: 8px;
     }
 
 
@@ -1797,10 +1803,25 @@ a{
 @media (min-width: 344px){
 
     .top{
-        width: 354px;
+        width: 344px;
     }
     .ham{
         margin-left: 300px;
+    }
+    .sidebar.active{
+        margin-left: 200px;
+    }
+    .homem{
+        margin-left: 30px;
+    }
+    .aboutm{
+        margin-left: 25px;
+    }
+    .contact{
+        margin-left: 30px;
+    }
+    .projectm{
+        margin-left: 20px;
     }
 }
 
@@ -1825,12 +1846,12 @@ a{
     .sidebar{
         position: fixed;
         background-color: var(--low-bg);
-        width: 100px;
+        width: 150px;
         margin-left: 350px;
         padding-bottom: 10px;
     }
     .sidebar.active{
-        margin-left: 242px;
+        margin-left: 212px;
     }
 
 
@@ -1892,7 +1913,7 @@ a{
     }
     .aboutme p{
         text-align: center;
-        font-size: 10px;
+        font-size: 13px;
     }
 
 
@@ -1951,7 +1972,34 @@ a{
         margin-left: 400px;
     }
     .sidebar.active{
-        margin-left: 252px;
+        margin-left: 212px;
+    }
+
+
+    .About-head{
+        margin-top: 30px;
+        margin-left: 12px;
+        width: 310px;
+        height: 50px;
+    }
+    .About-head p{
+        width: 450px;
+        color: var(--black);
+        position: relative;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 105px;
+    }
+
+
+    .aboutme{
+        margin-top: 20px;
+        margin-left: 15px;
+        width: 300px;
+    }
+    .aboutme p{
+        text-align: center;
+        font-size: 13px;
     }
 }
 
@@ -1966,7 +2014,7 @@ a{
         width: 377px;
     }
     .sidebar.active{
-        margin-left: 272px;
+        margin-left: 232px;
     }
 }
 
@@ -1988,7 +2036,7 @@ a{
         margin-left: 350px;
     }
     .sidebar.active{
-        margin-left: 292px;
+        margin-left: 242px;
     }
 }
 
@@ -2007,7 +2055,7 @@ a{
 
     .logo{
         width: 155px;
-        margin-top: 0px;
+        margin-top: -10px;
         margin-left: 40px;
     }
     .logo p{
@@ -2018,12 +2066,12 @@ a{
     .sidebar{
         position: fixed;
         background-color: var(--low-bg);
-        width: 100px;
+        width: 150px;
         margin-left: 400px;
         padding-bottom: 10px;
     }
     .sidebar.active{
-        margin-left: 292px;
+        margin-left: 252px;
     }
 
 
@@ -2032,11 +2080,11 @@ a{
     }
 
     .email1{
-        margin-top: -30px;
+        margin-top: -20px;
     }
     .email1 a{
         text-decoration: underline 0.5px solid;
-        font-size: 8px;
+        font-size: 10px;
     }
 
 
@@ -2368,7 +2416,7 @@ a{
         margin-left: 450px;
     }
     .sidebar.active{
-        margin-left: 312px;
+        margin-left: 272px;
     }
 }
 
@@ -2391,7 +2439,7 @@ a{
         margin-left: 450px;
     }
     .sidebar.active{
-        margin-left: 312px;
+        margin-left: 272px;
     }
 }
 
